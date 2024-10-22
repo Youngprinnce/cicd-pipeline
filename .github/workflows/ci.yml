@@ -21,4 +21,4 @@ jobs:
     - name: Build the Docker Image
       run: docker build -t cicd-pipeline .
     - name: Push to Docker
-      run: docker push youngprinnce/cicd-pipeline:latest
+      run: docker push youngprinnce/cicd-pipeline
